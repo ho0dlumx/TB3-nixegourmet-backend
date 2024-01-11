@@ -42,7 +42,7 @@ The project follows a typical Spring Boot architecture, divided into several lay
 
 - **Tests:** A suite of unit tests for DAOs that ensure the integrity of database operations.
 
-## **Environment Setup**
+## **Environment Setup:**
 
 Before starting development, ensure the following tools and dependencies are installed:
 
