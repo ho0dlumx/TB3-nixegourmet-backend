@@ -20,9 +20,11 @@ The application is also hosted at the CleverCloud and accessible through the lin
 # Guide for developers
 
 ##**Overview**
+
 This project is the backend, which likely serves as a culinary management or e-commerce platform. It handles order processing, customer management, employee management, and product management.
 
 ##**Project Structure**
+
 
 The project follows a typical Spring Boot architecture, divided into several layers:
 
