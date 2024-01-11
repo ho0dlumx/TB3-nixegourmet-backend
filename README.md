@@ -19,22 +19,31 @@ The application is also hosted at the CleverCloud and accessible through the lin
 
 # Guide for developers
 
-Overview
+**Overview**
 This project is the backend, which likely serves as a culinary management or e-commerce platform. It handles order processing, customer management, employee management, and product management.
 
-Project Structure
+**Project Structure**
+
 The project follows a typical Spring Boot architecture, divided into several layers:
 
-Controllers: Responsible for communicating with clients via HTTP requests and responses.
-Services: Contain business logic and service logic.
-Data Access Objects (DAOs): Provide an abstract layer for any kind of database operation.
-Data Transfer Objects (DTOs): Used to transfer data between software sub-systems.
-Mappers: Assist in converting entities to DTOs and vice versa.
-Entities: Represent database tables and contain domain data.
-Tests: A suite of unit tests for DAOs that ensure the integrity of database operations.
-Environment Setup
+-Controllers: Responsible for communicating with clients via HTTP requests and responses.
+
+-Services: Contain business logic and service logic.
+
+-Data Access Objects (DAOs): Provide an abstract layer for any kind of database operation.
+
+-Data Transfer Objects (DTOs): Used to transfer data between software sub-systems.
+
+-Mappers: Assist in converting entities to DTOs and vice versa.
+
+-Entities: Represent database tables and contain domain data.
+
+-Tests: A suite of unit tests for DAOs that ensure the integrity of database operations.
+
+**Environment Setup**
+
 Before starting development, ensure the following tools and dependencies are installed:
 
-JDK 11 or higher
-Gradle
-Your preferred IDE with support for Kotlin and Spring Boot (IntelliJ IDEA recommended)
+-JDK 11 or higher
+-Gradle
+-Your preferred IDE with support for Kotlin and Spring Boot (IntelliJ IDEA recommended)
