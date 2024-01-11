@@ -1,7 +1,6 @@
 package com.emse.spring.automacorp.dto;
 
 public class OrderItemDto {
-
     private Long id;
     private Long orderId;
     private Long productId;
